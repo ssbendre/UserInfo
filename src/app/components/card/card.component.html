@@ -1,0 +1,12 @@
+<div class="contact-list" *ngFor="let card of cardArray | arrayFilter : receivedSearchText">
+    <mat-card class="card-container">
+        <mat-card-header>
+            <div mat-card-avatar class="card-header-image"></div>
+            <mat-card-title>{{card.DisplayName}}</mat-card-title>
+            <mat-card-subtitle>{{card.EmailAddress}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-actions>
+            <i class="material-icons" (click)="editContact(card)">create</i>
+        </mat-card-actions>
+    </mat-card>
+</div>

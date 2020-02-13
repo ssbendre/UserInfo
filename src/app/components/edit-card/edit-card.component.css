@@ -1,0 +1,16 @@
+.container {
+    display: flex;    
+    justify-content: flex-end;
+    margin-right: 50px;
+    width: 500px;    
+}
+
+.contact-form {
+    min-width: 150px;
+    max-width: 450px;
+    width: 100%;
+}
+  
+  .contact-input {
+    width: 100%;
+}

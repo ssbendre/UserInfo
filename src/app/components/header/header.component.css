@@ -1,0 +1,7 @@
+.example-toolbar {
+    justify-content: center;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+    height: 4.5em;
+}

@@ -1,0 +1,4 @@
+<div class="home-container">
+    <app-card [cardArray]="cardData" [receivedSearchText]="searchText" (selectedCard)="selectedCard($event)"></app-card>
+    <app-edit-card [card]="selectedCards"></app-edit-card>
+</div>

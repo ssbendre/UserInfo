@@ -1,0 +1,5 @@
+.home-container {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
